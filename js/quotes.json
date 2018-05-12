@@ -1,0 +1,39 @@
+{
+  [
+    {
+        "quote": "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.",
+        "author": "Albert Einstein",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "The artist is nothing without the gift, but the gift is nothing without work.",
+        "author": "Emile Zola",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "I find that the harder I work, the more luck I seem to have.",
+        "author": "Thomas Jefferson",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "Whether you think that you can, or that you can't, you are usually right.",
+        "author": "Henry Ford",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "There are no facts, only interpretations.",
+        "author": "Friedrich Nietzsche",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "Try to learn something about everything and everything about something.",
+        "author": "Thomas Henry Huxley",
+        "bg-image": "../img/einstein.jpg"
+    }
+    , {
+        "quote": "Never interrupt your enemy when he is making a mistake.",
+        "author": "Napoleon Bonaparte",
+        "bg-image": "../img/einstein.jpg"
+    }
+  ]
+}

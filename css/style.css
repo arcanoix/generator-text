@@ -1,0 +1,134 @@
+/*=================================
+\* 0. Reset
+\* 1. Globals
+\* 2. Header
+\* 3. Intro (carousel)
+\* 4. Countries list
+\* 5. Call to action
+\* 6. Footer
+/*===============================*/
+@import 'https://fonts.googleapis.com/css?family=Nothing+You+Could+Do';
+/*=================================
+\* 0. Reset
+/*===============================*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=================================
+\* 1. Globals
+/*===============================*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: transparent;
+    padding-top: 1px;
+    margin-top: -1px;
+}
+/*=================================
+\* 1. Background slider
+/*===============================*/
+#background-slider:after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: -1;
+}
+.background-slider-item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    z-index: -2;
+}
+.item-under {
+    z-index: -99 !important;
+}
+/*=================================
+\* 2. Quotes rotator
+/*===============================*/
+.rotator-wrapper {
+    position: relative;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 50px 50px;
+    margin: 100px auto 0;
+}
+.rotator-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #39f;
+    width: 100%;
+}
+blockquote {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    line-height: 30px;
+}
+.quote-author {
+    font-size: .6em;
+}
+.rotator-controls {
+    margin: 20px auto 0;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px #39f solid;
+    color: #39f;
+    cursor: pointer;
+}
